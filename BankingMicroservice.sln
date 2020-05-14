@@ -33,7 +33,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Banking
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Banking.Application", "BankingMicroservice.Banking.Application\BankingMicroservice.Banking.Application.csproj", "{7B9DA0BC-3461-41BC-8881-EE1D6442061B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Banking,Data", "BankingMicroservice.Banking,Data\BankingMicroservice.Banking,Data.csproj", "{0F9E4763-40D3-4ED9-8F05-304F7A2F5438}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Banking.Data", "BankingMicroservice.Banking,Data\BankingMicroservice.Banking.Data.csproj", "{0F9E4763-40D3-4ED9-8F05-304F7A2F5438}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Banking.Domain", "BankingMicroservice.Banking.Domain\BankingMicroservice.Banking.Domain.csproj", "{51C06657-54CD-41D3-870B-CFBCCF345F42}"
 EndProject

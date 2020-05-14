@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BankingMicroservice.Banking.Domain\BankingMicroservice.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
