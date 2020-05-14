@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F1D722B6-BFFA-4C87-ADAD-D46828BDD70F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Domain", "BankingMicroservice.Domain\BankingMicroservice.Domain.csproj", "{BC9039A2-3117-4C5D-8F88-499B548C0472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankingMicroservice.Domain", "BankingMicroservice.Domain\BankingMicroservice.Domain.csproj", "{BC9039A2-3117-4C5D-8F88-499B548C0472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingMicroservice.Infrastructure.Bus", "BankingMicroservice.Infrastructure.Bus\BankingMicroservice.Infrastructure.Bus.csproj", "{840E0668-9054-45F6-8D77-D060CAB9C274}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{BC9039A2-3117-4C5D-8F88-499B548C0472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9039A2-3117-4C5D-8F88-499B548C0472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9039A2-3117-4C5D-8F88-499B548C0472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840E0668-9054-45F6-8D77-D060CAB9C274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840E0668-9054-45F6-8D77-D060CAB9C274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840E0668-9054-45F6-8D77-D060CAB9C274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840E0668-9054-45F6-8D77-D060CAB9C274}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BC9039A2-3117-4C5D-8F88-499B548C0472} = {55B91508-1656-4D1D-B15C-63BF266D54EB}
+		{840E0668-9054-45F6-8D77-D060CAB9C274} = {4CDC7255-3F33-46A5-89D0-5AD4521034FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBF584DA-116C-400C-A5E9-B62C6D5E050B}
